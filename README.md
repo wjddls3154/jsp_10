@@ -4,21 +4,21 @@
 
 // 변수
 
-var person = {
+        var person = {
 
-        name: {
+                name: {
         
-          firstname: "inkyo",
+                firstname: "inkyo",
           
-          lastname: "jung"
+                lastname: "jung"
           
-        },
+                },
         
-        age: 25,
+                age: 25,
         
-        married: false,
+                married: false,
         
-      };
+                };
       
       document.write(person["name"]); // 1. person 안의, name 을 출력했을 때, [object Object] 출력
       
